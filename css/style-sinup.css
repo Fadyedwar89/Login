@@ -1,0 +1,12 @@
+.bg-signup {
+    background-image: url('../img/bg-sin.jpg');
+    background-size: cover;
+}
+
+::placeholder {
+    color: white !important;
+}
+
+.bg-log{
+    background-color: rgba(0, 0, 0,0.4);
+}

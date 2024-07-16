@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min copy.css">
+    <link rel="stylesheet" href="css/style-sinup.css">
+    <title>Signup</title>
+</head>
+<!-- sec page or sinup page -->
+
+<body class="bg-signup">
+
+    <div class="container mt-5  text-center ">
+        <div class="row">
+            <div class="col-10 m-auto">
+                <div class=" p-5 bg-log">
+
+                    <h1 class=" text-white mb-5">Join Our Restaurant </h1> <!--== head ==-->
+                    <!-- ========== Start input ========== -->
+                    <div class="mb-3">
+                        <input type="text"
+                            class="form-control bg-dark focus-ring focus-ring-light border-light text-white "
+                            id="inputName" placeholder="Enter your name">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email"
+                            class="form-control bg-dark focus-ring focus-ring-light border-light text-white "
+                            id="inputEmail" placeholder="Enter email address">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="password"
+                            class="form-control bg-dark focus-ring focus-ring-light border-light text-white "
+                            id="inputPassword" placeholder="password">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="password"
+                            class="form-control bg-dark focus-ring focus-ring-light border-light text-white "
+                            id="inputRePassword" placeholder="re password">
+                    </div>
+                    <!-- ========== End input ========== -->
+
+                    <!-- ========== Start alert comment ========== -->
+
+                    <div id="alert-div" class=" d-none flex-wrap flex-column ps-3 bg-light align-items-baseline justify-content-center">
+                       <div>
+                        <i class="fa-solid fa-asterisk  text-danger pe-2"></i>
+                        <span id="alert-text" class=" text-danger h6"> All inputs is required</span>
+                       </div>
+                    </div>
+                    <!-- ========== End alert comment ========== -->
+
+                    <button id="signup" class="btn btn-dark d-block m-auto px-5  mt-3">Sin Up </button>
+
+                    <span class="text-light fs-5">you have an account? <a
+                            class="text-light link-underline link-underline-opacity-0 link-offset-2"
+                            href="index.html">Sign In</a></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+
+</html>

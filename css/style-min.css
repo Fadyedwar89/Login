@@ -1,0 +1,19 @@
+.bg-main{
+    background-image: url('../img/bg-imge.jpg');
+    background-size: cover;
+}
+.bg-log{
+    background-color: rgba(0, 0, 0,0.4);
+}
+
+.bg-login{
+   background-color: #24353F;
+}
+.shadow-nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+}
+img{
+    
+    height:200px ;
+    object-fit: contain;
+}
